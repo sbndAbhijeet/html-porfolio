@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="icon" href="./assets/icon.gif" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>Abhijeet | Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <img class="icon" src="./assets/icon.gif" alt="Portfolio-icon">
+                <h1>Abhijeet</h1>
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">Hello, I'm <span class="highlight">Abhijeet</span></h1>
+                    <h2 class="hero-subtitle">Web Developer & Designer</h2>
+                    <p class="hero-description">I create beautiful, responsive websites with modern technologies and best practices.</p>
+                    <div class="hero-buttons">
+                        <a href="projects.html" class="btn btn-primary">View My Work</a>
+                        <a href="contact.html" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="./assets/Profile_photo.jpg" alt="Abhijeet - Profile Photo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Skills Section -->
+        <section class="featured-skills">
+            <h2 class="section-title">My Expertise</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Building responsive and interactive websites using modern frameworks and technologies.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Responsive Design</h3>
+                    <p>Creating websites that look great on all devices, from mobile to desktop.</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fas fa-database"></i>
+                    <h3>Data Structures</h3>
+                    <p>Proficient in implementing efficient data structures and algorithms.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Projects Section -->
+        <section class="featured-projects">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/VortexReg.png" alt="Project 1">
+                    </div>
+                    <div class="project-info">
+                        <h3>VortexReg</h3>
+                        <p>A Interactive Course Registration Platform for IIIT Vadodara Students</p>
+                        <div class="project-tags">
+                            <span>HTML</span>
+                            <span>BootStrap</span>
+                            <span>Django</span>
+                            <span>SQLite</span>
+                        </div>
+                        <a href="projects.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/IntelliDiary.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>IntelliDiary</h3>
+                        <p>A Personalized Journaling Application, where users can track their thoughts, emotions, and memories with the help of AI/ML model for mood tracking</p>
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>PyQt</span>
+                            <span>Pretrained AI Model</span>
+                            <span>SQLite</span>
+                        </div>
+                        <a href="projects.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/EazyDine.png" alt="Project 2">
+                    </div>
+                    <div class="project-info">
+                        <h3>EazyDine</h3>
+                        <p>Ongoing... Just started still in Designing phase</p>
+                        <div class="project-tags">
+                            <span>Django</span>
+                            <span>HTML/Bootstrap</span>
+                            <span>(Future Goal) Order Tracking and Payment Gateway</span>
+                        </div>
+                        <a href="projects.html" class="btn btn-small">View Details</a>
+                    </div>
+                </div>
+            </div>
+            <div class="view-all">
+                <a href="projects.html" class="btn btn-primary">View All Projects</a>
+            </div>
+        </section>
+
+        <!-- Contact CTA Section -->
+        <section class="contact-cta">
+            <div class="cta-content" style="margin-left: 20px;">
+                <h2>Let's Work Together</h2>
+                <p>I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.</p>
+                <a href="contact.html" class="btn btn-primary">Get In Touch</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <img class="icon" src="./assets/icon.gif" alt="Portfolio-icon">
+                <h2>Abhijeet</h2>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-contact">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> sbndabhijeet@gmail.com</p>
+                <p><i class="fas fa-map-marker-alt"></i> Hyderabad, Telangana, India</p>
+            </div>
+            <div class="footer-social">
+                <h3>Connect With Me</h3>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/sapparapu-abhijeet-1b0a11282/" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sbndAbhijeet" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="#" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Abhijeet. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
